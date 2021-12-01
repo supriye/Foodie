@@ -84,7 +84,7 @@ public class SidebarAdapter extends RecyclerView.Adapter<SidebarAdapter.UserView
             }
             case "Privacy Policy": {
                 Intent policy = new Intent(Intent.ACTION_VIEW);
-                policy.setData(Uri.parse("https://khanaforyou.blogspot.com/p/khana-khalo-privacy-policy.html"));
+                policy.setData(Uri.parse("https://portal.termshub.io/bk8wi5e6br/mobile_eula"));
                 ctx.startActivity(policy);
                 break;
             }
@@ -115,7 +115,7 @@ public class SidebarAdapter extends RecyclerView.Adapter<SidebarAdapter.UserView
             }
             case "Terms and Conditions": {
                 Intent policy = new Intent(Intent.ACTION_VIEW);
-                policy.setData(Uri.parse("https://khanaforyou.blogspot.com/p/terms-and-conditions.html"));
+                policy.setData(Uri.parse("https://portal.termshub.io/bk8wi5e6br/mobile_eula/"));
                 ctx.startActivity(policy);
                 break;
             }

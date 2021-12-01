@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="#704242"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <androidx.cardview.widget.CardView
@@ -46,6 +46,7 @@
                     android:layout_marginTop="27.3dp"
                     android:text="@string/full_name"
                     android:textColor="#9e9d9d"
+                    android:textStyle="bold"
                     android:textSize="12.3sp" />
                 <EditText
                     android:id="@+id/nam"
@@ -69,6 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="27.3dp"
                     android:text="@string/mobile_number"
+                    android:textStyle="bold"
                     android:textColor="#9e9d9d"
                     android:textSize="12.3sp" />
                 <EditText
@@ -94,6 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
                     android:text="@string/address"
+                    android:textStyle="bold"
                     android:textColor="#9e9d9d"
                     android:textSize="12.3sp" />
                 <EditText

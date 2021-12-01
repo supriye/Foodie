@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_screen3"
     tools:context=".SplashActivity">
     <LinearLayout
         android:id="@+id/splash"
@@ -13,7 +14,7 @@
         android:layout_height="match_parent">
         <ImageView
             android:layout_marginTop="100dp"
-            android:src="@mipmap/logo_squre"
+            android:src="@mipmap/ic_launcher"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:contentDescription="@string/todo" />

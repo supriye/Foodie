@@ -11,12 +11,12 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="#1D65A3"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <TextView
         android:text="@string/special_thali"
         android:textSize="20sp"
-        android:textColor="#D50000"
+        android:textColor="#0C7C6F"
         android:textStyle="bold"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/food_name"
                     android:text="@string/special_thali"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="@color/bg_screen1"/>
                 <TextView
                     android:layout_marginTop="3dp"
                     android:layout_marginBottom="3dp"
@@ -94,7 +94,7 @@
     <TextView
         android:text="@string/recommended"
         android:textSize="20sp"
-        android:textColor="#D50000"
+        android:textColor="#133F60"
         android:textStyle="bold"
         android:layout_margin="10dp"
         android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark">
+        android:background="@color/colorAccent">
         <TextView
             android:id="@+id/item"
             android:textStyle="bold"

@@ -93,7 +93,7 @@ public class SidebarAdapter extends RecyclerView.Adapter<SidebarAdapter.UserView
                     Intent share = new Intent(Intent.ACTION_SEND);
                     share.setType("text/plain");
                     share.putExtra(Intent.EXTRA_SUBJECT,ctx.getResources().getString(R.string.app_name));
-                    String msg = "\nLet me recommend you this application\n\nhttps://play.google.com/store/apps/details?id=" + ctx.getPackageName();
+                    String msg = "\nLet me recommend you this application\n\nhttps://www.amazon.com/dp/B09MV5TR58/ref=apps_sf_sta" + ctx.getPackageName();
                     share.putExtra(Intent.EXTRA_TEXT, msg);
                     ctx.startActivity(Intent.createChooser(share, "Share Via"));
                 } catch(Exception e) {
@@ -103,13 +103,13 @@ public class SidebarAdapter extends RecyclerView.Adapter<SidebarAdapter.UserView
             }
             case "Contact Us": {
                 Intent c = new Intent(Intent.ACTION_VIEW);
-                c.setData(Uri.parse("https://khanaforyou.blogspot.com/p/contact.html"));
+                c.setData(Uri.parse("https://www.linkedin.com/in/supriye-anand?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBKKD5rk3SXGrcyIZ19yGZA%3D%3D"));
                 ctx.startActivity(c);
                 break;
             }
             case "Rate Us": {
                 Intent policy = new Intent(Intent.ACTION_VIEW);
-                policy.setData(Uri.parse("https://play.google.com/store/apps/details?id=" + ctx.getPackageName()));
+                policy.setData(Uri.parse("https://www.amazon.com/dp/B09MV5TR58/ref=apps_sf_sta" + ctx.getPackageName()));
                 ctx.startActivity(policy);
                 break;
             }
@@ -121,7 +121,7 @@ public class SidebarAdapter extends RecyclerView.Adapter<SidebarAdapter.UserView
             }
             case "About Us": {
                 Intent policy = new Intent(Intent.ACTION_VIEW);
-                policy.setData(Uri.parse("https://khanaforyou.blogspot.com"));
+                policy.setData(Uri.parse("https://www.amazon.com/dp/B09MV5TR58/ref=apps_sf_sta"));
                 ctx.startActivity(policy);
                 break;
             }

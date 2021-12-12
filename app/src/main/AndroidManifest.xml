@@ -12,12 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodie">
-        <activity android:name=".CategoryActivity"/>
-        <activity android:name=".PaymentActivity" />
-        <activity android:name=".FoodlistActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.anand.foodie.CategoryActivity"/>
+        <activity android:name="com.anand.foodie.PaymentActivity" />
+        <activity android:name="com.anand.foodie.FoodlistActivity" />
+        <activity android:name="com.anand.foodie.HomeActivity" />
+        <activity android:name="com.anand.foodie.MainActivity" />
+        <activity android:name="com.anand.foodie.SplashActivity"
                    android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
